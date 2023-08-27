@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8352" started-at="2023-08-27T14:39:10 IST" finished-at="2023-08-27T14:39:18 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8352" started-at="2023-08-27T14:39:10 IST" finished-at="2023-08-27T14:39:18 IST">
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@36b4cef0]" name="setup" is-config="true" duration-ms="2825" started-at="2023-08-27T14:39:10 IST" finished-at="2023-08-27T14:39:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@36b4cef0]" name="test_account_Registration" duration-ms="3115" started-at="2023-08-27T14:39:13 IST" finished-at="2023-08-27T14:39:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_Registration -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@36b4cef0]" name="Teardown" is-config="true" duration-ms="114" started-at="2023-08-27T14:39:16 IST" finished-at="2023-08-27T14:39:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_002_LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@1d8d30f7]" name="setup" is-config="true" duration-ms="1361" started-at="2023-08-27T14:39:16 IST" finished-at="2023-08-27T14:39:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Login_Page()[pri:0, instance:testCases.TC_002_LoginTest@1d8d30f7]" name="test_Login_Page" duration-ms="691" started-at="2023-08-27T14:39:17 IST" finished-at="2023-08-27T14:39:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login_Page -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:testCases.TC_002_LoginTest@1d8d30f7]" name="Teardown" is-config="true" duration-ms="75" started-at="2023-08-27T14:39:18 IST" finished-at="2023-08-27T14:39:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testCases.TC_002_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
