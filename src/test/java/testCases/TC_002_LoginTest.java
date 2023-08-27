@@ -1,6 +1,7 @@
 package testCases;
 
 import org.openqa.selenium.WebDriver;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,6 +10,8 @@ import pageObject.LoginPage;
 import pageObject.MyAccountPage;
 import testBase.BaseClass;
 
+//login test
+//new
 public class TC_002_LoginTest extends BaseClass {
 	@Test
 	public void test_Login_Page() {
